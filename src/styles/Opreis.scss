@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400;500&family=Montserrat:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;600&display=swap");
 .homepage__main {
   button,
   input[type="submit"],
@@ -15,7 +15,6 @@
 }
 
 .homepage__main {
-  font-family: "Montserrat", Courier, monospace;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -83,6 +82,8 @@
     margin-bottom: 16px;
   }
   .title-text {
+    font-family: "Mukta", Courier, monospace;
+    font-weight: 300;
     width: fit-content;
     margin: auto;
     font-size: 40px;
@@ -112,6 +113,7 @@
     width: 480px;
     min-height: 316px;
     font-family: "Mukta", Courier, monospace;
+    font-weight: 200;
     border-radius: 13px;
     padding: 15px;
     border-color: white;
@@ -189,6 +191,8 @@
 }
 
 .credits {
+  font-weight: 200;
+  font-family: "Mukta", Courier, monospace;
   color: #c2c2c2;
   margin-bottom: 1px;
   margin: 40px;
