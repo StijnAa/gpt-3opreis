@@ -26,7 +26,8 @@ const chat = async (req: any, res: any) => {
     // Sort the chunks by their scores in descending order
     .sort((a, b) => b.score - a.score)
     // Filter the chunks by their score above the threshold
-    .filter((chunk) => chunk.score > 0.81);
+    .filter((chunk) => chunk.score > 0.82)
+    .slice(0, 41);
 
   if (rankedChunks) {
     res.status(200).json(rankedChunks);
